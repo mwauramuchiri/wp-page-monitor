@@ -1,0 +1,62 @@
+.wp-page-monitor-controls {
+    margin: 20px 0;
+    padding: 15px;
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+.wp-page-monitor-results {
+    margin-top: 20px;
+}
+
+.wp-page-monitor-results table {
+    margin-top: 10px;
+}
+
+.wp-page-monitor-results th {
+    font-weight: 600;
+}
+
+.wp-page-monitor-results td {
+    vertical-align: top;
+    word-break: break-word;
+}
+
+.wp-page-monitor-results tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.wp-page-monitor-results tr:hover {
+    background-color: #f0f0f0;
+}
+
+/* Highlight slow hooks */
+.wp-page-monitor-results tr.slow-hook {
+    background-color: #fff8e5;
+}
+
+.wp-page-monitor-results tr.slow-hook:hover {
+    background-color: #fff0cc;
+}
+
+/* Add a legend for execution times */
+.wp-page-monitor-legend {
+    margin: 10px 0;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    font-size: 12px;
+}
+
+.wp-page-monitor-legend span {
+    display: inline-block;
+    padding: 2px 8px;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+
+.wp-page-monitor-legend .slow-hook {
+    background-color: #fff8e5;
+    border: 1px solid #ffd700;
+} 
